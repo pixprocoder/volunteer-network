@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <header>
-      <nav className="py-4 bg-yellow-50 shadow-lg">
+      <nav className="py-4 bg-white shadow-md">
         <ul className="flex space-x-2">
           <li>
             <Link to="/home"> Home </Link>

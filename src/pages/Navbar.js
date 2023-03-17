@@ -1,12 +1,13 @@
 import React from "react";
+import logo from "../assets/logos/logo.png";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <header>
-      <nav className="py-4 max-w-screen-2xl mx-auto bg-white shadow-md">
+      <nav className="py-4 max-w-screen-2xl mx-auto bg-white ">
         <div className="flex justify-between items-center px-2">
-          <h1 className="text-2xl text-yellow-500 font-black">VOLUNTEER</h1>
+          <img width={200} src={logo} alt="" />
           <ul className="flex space-x-6 text-xl justify-center items-center">
             <li>
               <Link to="/home"> Home </Link>

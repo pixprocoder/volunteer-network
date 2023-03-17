@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 
 import Events from "./pages/Events";
 import Blog from "./pages/Blog";
+import Register from "./pages/Register";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/about" element={<About />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
     </div>
   );

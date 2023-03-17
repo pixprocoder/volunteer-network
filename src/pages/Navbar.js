@@ -8,7 +8,7 @@ const Navbar = () => {
       <nav className="py-4 max-w-screen-2xl mx-auto bg-white  ">
         <div className="flex flex-col lg:flex-row justify-between items-center px-2">
           <img width={200} src={logo} alt="" />
-          <ul className="flex flex-col lg:flex-row text-xl justify-center items-center">
+          <ul className="flex flex-col space-x-6 lg:flex-row text-xl justify-center items-center">
             <li>
               <Link to="/home"> Home </Link>
             </li>
